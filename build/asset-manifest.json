@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/chatHw/static/css/main.d4398bbb.css",
+    "main.js": "/chatHw/static/js/main.f522a0ea.js",
+    "static/js/787.66cb4309.chunk.js": "/chatHw/static/js/787.66cb4309.chunk.js",
+    "static/media/avatar.png": "/chatHw/static/media/avatar.d947cb9d0d13765666b6.png",
+    "index.html": "/chatHw/index.html",
+    "main.d4398bbb.css.map": "/chatHw/static/css/main.d4398bbb.css.map",
+    "main.f522a0ea.js.map": "/chatHw/static/js/main.f522a0ea.js.map",
+    "787.66cb4309.chunk.js.map": "/chatHw/static/js/787.66cb4309.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d4398bbb.css",
+    "static/js/main.f522a0ea.js"
+  ]
+}
