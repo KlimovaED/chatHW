@@ -31,7 +31,6 @@
     border-radius: 10px 10px 10px 0px;
     display: flex;
     flex-direction: column;
-    align-items: end;
     gap: 3px;
     padding: 7px 13px 8px;
 }
