@@ -1,0 +1,80 @@
+.message {
+    width: 100%;
+    min-height: 77px;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    margin-bottom: 24px;
+}
+
+.imageAndText {
+    max-width: 575px;
+    display: flex;
+    gap:10px;
+    flex-wrap: nowrap;
+    flex-direction: row-reverse;
+}
+
+.imageAndText img {
+    width: 48px;
+    height: 48px;
+    background-size: contain;
+    border-radius: 30px;
+    align-self: center;
+}
+
+.text {
+    max-width: 527px;
+    box-shadow: 0px 1px 2px 0px rgba(29, 33, 38, 0.1),0px 5px 20px 0px rgba(29, 33, 38, 0.03);
+    background: rgb(0, 102, 204);
+    position: relative;
+    color: white;
+    border-radius: 10px 10px 0 10px;
+    display: flex;
+    flex-direction: column;
+   align-items: end;
+    gap: 3px;
+    padding: 7px 13px 8px;
+}
+
+.text:after {
+    content: '';
+    position: absolute;
+    right: -10px;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-left: 10px solid rgb(0, 102, 204);
+    border-top: 7px solid transparent;
+    border-bottom: 0 solid transparent;
+}
+
+.name {
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0;
+    text-align: left;
+}
+
+.messageText {
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0;
+    text-align: left;
+    overflow-wrap: break-word;
+    word-break: break-word;
+}
+
+.time {
+    padding: 0 11px ;
+    color: rgb(0, 0, 0);
+    font-size: 10px;
+    font-weight: 600;
+    line-height: 12px;
+    letter-spacing: 0;
+    text-align: left;
+}
