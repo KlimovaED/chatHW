@@ -3,6 +3,7 @@
     min-height: 373px;
     height: fit-content;
     margin: 131px auto;
+    --header_height: 60px;
 }
 
 .hw {
