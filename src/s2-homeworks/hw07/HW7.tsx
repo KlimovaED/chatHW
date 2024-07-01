@@ -3,6 +3,7 @@ import SuperSelect from './common/c5-SuperSelect/SuperSelect'
 import SuperRadio from './common/c6-SuperRadio/SuperRadio'
 import s2 from '../../s1-main/App.module.css'
 import s from './HW7.module.css'
+import {strict} from 'node:assert';
 
 /*
 * 1 - в файле SuperSelect.tsx дописать логику функции onChangeCallback
@@ -11,10 +12,11 @@ import s from './HW7.module.css'
 * 4 - сделать стили в соответствии с дизайном
 * */
 
+
 const arr = [
-    { id: 1, value: 'x' },
-    { id: 2, value: 'y' },
-    { id: 3, value: 'z' },
+    { id: 1, value: 'Pre-junior' },
+    { id: 2, value: 'Junior' },
+    { id: 3, value: 'Junior +' },
 ] // value может быть изменено
 
 const HW7 = () => {
@@ -35,7 +37,7 @@ const HW7 = () => {
                             onChangeOption={onChangeOption}
                         />
                     </div>
-                    <div>
+                    <div style={{display:'flex',flexDirection:'column'}}>
                         <SuperRadio
                             id={'hw7-super-radio'}
                             name={'hw7-radio'}

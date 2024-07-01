@@ -1,15 +1,44 @@
 .radio {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    appearance: none; /* Hides default radio button */
+    border: 2px solid black;
+    border-radius: 50%;
+    cursor: pointer;
+
 }
 
 .radio::before {
+    content: "";
+    display: block;
+    width: 14px;
+    height: 14px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    background-color: white; /* Color when not checked */
+    transition: background-color 0.2s ease;
 }
-
-
 .radio:checked::before {
+    content: "";
+    display: block;
+    background-color: black;
+
 }
+
+
 
 .label {
+   display: flex;
+    gap:20px;
+
 }
 
 .options {
+    display: flex;
+    flex-direction: column;
+    gap:20px;
 }
