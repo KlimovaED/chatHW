@@ -1,17 +1,20 @@
 {
   "files": {
-    "main.css": "/chatHw/static/css/main.8c2d7f6d.css",
-    "main.js": "/chatHw/static/js/main.8e052d94.js",
+    "main.css": "/chatHw/static/css/main.bd345074.css",
+    "main.js": "/chatHw/static/js/main.f961711d.js",
     "static/js/787.66cb4309.chunk.js": "/chatHw/static/js/787.66cb4309.chunk.js",
     "static/media/avatar.png": "/chatHw/static/media/avatar.d947cb9d0d13765666b6.png",
+    "static/media/404.svg": "/chatHw/static/media/404.9ec31c0ba8d95b0480272e46af98c955.svg",
+    "static/media/closeOutline.svg": "/chatHw/static/media/closeOutline.b64ba402fac8a549bc2de97e9cf84a61.svg",
     "static/media/checked.svg": "/chatHw/static/media/checked.b75ca55e8759862b4083.svg",
     "index.html": "/chatHw/index.html",
-    "main.8c2d7f6d.css.map": "/chatHw/static/css/main.8c2d7f6d.css.map",
-    "main.8e052d94.js.map": "/chatHw/static/js/main.8e052d94.js.map",
+    "static/media/burger.svg": "/chatHw/static/media/burger.700e416f7bfe3697f96b36c778d25355.svg",
+    "main.bd345074.css.map": "/chatHw/static/css/main.bd345074.css.map",
+    "main.f961711d.js.map": "/chatHw/static/js/main.f961711d.js.map",
     "787.66cb4309.chunk.js.map": "/chatHw/static/js/787.66cb4309.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8c2d7f6d.css",
-    "static/js/main.8e052d94.js"
+    "static/css/main.bd345074.css",
+    "static/js/main.f961711d.js"
   ]
 }
