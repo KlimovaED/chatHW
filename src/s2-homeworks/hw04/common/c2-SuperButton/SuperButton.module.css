@@ -20,7 +20,9 @@
 .disabled {
     background: rgb(0, 77, 153);
     opacity: 0.5;
-    color: rgb(0, 46, 92);
+    /*color: rgb(0, 46, 92);*/
+    color: white;
+
 }
 
 .secondary {
