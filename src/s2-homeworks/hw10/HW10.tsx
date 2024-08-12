@@ -5,6 +5,7 @@ import {loadingAC} from './bll/loadingReducer'
 import SuperButton from '../hw04/common/c2-SuperButton/SuperButton'
 import s2 from '../../s1-main/App.module.css'
 import {Loader} from './Loader'
+import {red} from '@mui/material/colors';
 
 /*
 * 1 - в файле loadingReducer.ts дописать типы и логику
@@ -14,12 +15,14 @@ import {Loader} from './Loader'
 * */
 
 const HW10 = () => {
-    // useSelector, useDispatch // пишет студент
-    const isLoading = false
+    const isLoading = useSelector<AppStoreType>(state => state.loading.isLoading);
+    let dispatch= useDispatch();
 
-    const setLoading = () => { // пишет студент // показать крутилку на 1,5 секунд
-        // dispatch
-
+    const setLoading = () => {
+        dispatch(loadingAC(true))// пишет студент // показать крутилку на 1,5
+        setTimeout(()=>{
+            dispatch(loadingAC(false))
+        },1500)
         // setTimeout
     }
 
@@ -27,7 +30,7 @@ const HW10 = () => {
         <div id={'hw10'}>
             <div className={s2.hwTitle}>Homework #10</div>
 
-            <div className={s2.hw}>
+            <div className={s2.hw} style={{marginLeft:'70px'}}>
                 {isLoading ? (
                     <div id={'hw10-loading'}>
                         <Loader/>
@@ -36,6 +39,7 @@ const HW10 = () => {
                     <SuperButton
                         id={'hw10-button-start-loading'}
                         onClick={setLoading}
+                       xType={'default'}
                     >
                         Set loading...
                     </SuperButton>
