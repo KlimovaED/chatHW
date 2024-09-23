@@ -34,22 +34,24 @@ const HW14 = () => {
         setLoading(true)
         getTechs(value)
             .then((res) => {
-                // делает студент
+              if(res && res.data){
+                  setLoading(false)
+                  setTechs(res.data.techs)
 
-                // сохранить пришедшие данные
-
-                //
+              }else {
+                  console.error("Unexpected response structure", res);
+              }
             })
+            .catch((err) => {
+                console.log(err)
+            })
+
     }
 
     const onChangeText = (value: string) => {
         setFind(value)
-        // делает студент
-
-        // добавить/заменить значение в квери урла
-        // setSearchParams(
-
-        //
+        setSearchParams({find:value})
+        sendQuery(value)
     }
 
     useEffect(() => {
