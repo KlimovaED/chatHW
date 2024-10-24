@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/chatHw/static/css/main.48328c65.css",
-    "main.js": "/chatHw/static/js/main.6a26313d.js",
+    "main.css": "/chatHw/static/css/main.8d4ec5a9.css",
+    "main.js": "/chatHw/static/js/main.2c71affa.js",
     "static/js/787.66cb4309.chunk.js": "/chatHw/static/js/787.66cb4309.chunk.js",
     "static/media/avatar.png": "/chatHw/static/media/avatar.d947cb9d0d13765666b6.png",
     "static/media/200.svg": "/chatHw/static/media/200.96248f7df0dde10e0a82ac30418f50bc.svg",
@@ -14,12 +14,15 @@
     "static/media/checked.svg": "/chatHw/static/media/checked.b75ca55e8759862b4083.svg",
     "index.html": "/chatHw/index.html",
     "static/media/burger.svg": "/chatHw/static/media/burger.700e416f7bfe3697f96b36c778d25355.svg",
-    "main.48328c65.css.map": "/chatHw/static/css/main.48328c65.css.map",
-    "main.6a26313d.js.map": "/chatHw/static/js/main.6a26313d.js.map",
+    "static/media/8665859_sort_filter_icon.svg": "/chatHw/static/media/8665859_sort_filter_icon.5e77cff564347ed5cda45721bcf27b06.svg",
+    "static/media/211614_down_b_arrow_icon.svg": "/chatHw/static/media/211614_down_b_arrow_icon.71cb4f0225ee09b0c9d3c84888c3da2d.svg",
+    "static/media/211623_b_up_arrow_icon.svg": "/chatHw/static/media/211623_b_up_arrow_icon.3976b09c85c3ac101ddee88b5cc631a3.svg",
+    "main.8d4ec5a9.css.map": "/chatHw/static/css/main.8d4ec5a9.css.map",
+    "main.2c71affa.js.map": "/chatHw/static/js/main.2c71affa.js.map",
     "787.66cb4309.chunk.js.map": "/chatHw/static/js/787.66cb4309.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.48328c65.css",
-    "static/js/main.6a26313d.js"
+    "static/css/main.8d4ec5a9.css",
+    "static/js/main.2c71affa.js"
   ]
 }
