@@ -6,7 +6,7 @@ const SuperRange: React.FC<SliderProps> = (props) => {
         <Slider
             sx={{ width:'200px',height:'4px','& .MuiSlider-track': {
                     backgroundColor: 'rgba(0, 204, 34, 1)',
-                    border:'none'
+                    border:'none',
                 },
                 '& .MuiSlider-rail': {
                     backgroundColor: 'rgba(139, 139, 139, 1)',
